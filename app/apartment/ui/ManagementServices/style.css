@@ -1,0 +1,26 @@
+.wrap-Managements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title-management {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.name-management {
+    /* margin-top: 20px;
+    margin-bottom: 40px; */
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

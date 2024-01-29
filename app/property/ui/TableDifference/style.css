@@ -1,0 +1,40 @@
+.main {
+    justify-items: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    height: 68px;
+    width: 340px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.grid-item img {
+    max-width: 20px;
+    max-height: 20px;
+}
+.bor-top {
+    border-top: none !important ;
+}
+.bor-left {
+    border-left: none !important ;
+}
+.bor-right {
+    border-right: none !important;
+}
+.property-table-difference__items:last-child .grid-item {
+    border-bottom: none !important;
+}
+.property-table-difference__items:first-child .name-top {
+    font-weight: 700 !important;
+}

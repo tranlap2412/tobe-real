@@ -1,0 +1,61 @@
+/* .my-booking__head {
+    height: 70px;
+    border: 1px solid #b7b7b7;
+    background: linear-gradient(180deg, #FFF 0%, #FFF 100%);
+    border-radius: 10px;
+    padding: 0 16px;
+}
+.my-booking__head--grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 37% 18% 10% 15% auto;
+}
+.my-booking__head > div {
+    display: grid;  
+    place-content: center start;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.my-booking__item {
+    padding: 0 16px;
+    height: 135px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    background: linear-gradient(180deg, #FFF 0%, #FFF 100%);
+    box-shadow: 0px 4px 10px 0px rgba(240, 185, 11, 0.50);
+}
+.my-booking__head > div:nth-child(3),
+.my-booking__head > div:nth-child(4),
+.my-booking__head > div:nth-child(5) {
+    place-content: center;
+}
+.my-booking__item >div:not(:last-child) {
+    display: grid;
+    place-content: center start;
+}
+.my-booking__item > div:nth-child(3),
+.my-booking__item > div:nth-child(4),
+.my-booking__item > div:nth-child(5) {
+    place-content: center;
+} */
+
+/* .my-booking__item >div:last-child {
+    display: grid;
+    place-content: center end;
+} */
+
+
+/* @media (max-width: 1200px) {
+    .my-booking__head--grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 5% 37% 15% 15% 20% auto;
+    }
+} */
+.my-booking__item {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFF 0%, #FFF 100%);
+    box-shadow: 0px 4px 10px 0px rgba(240, 185, 11, 0.50);
+}

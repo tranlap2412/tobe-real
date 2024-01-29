@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html::-webkit-scrollbar {
+  width: 7px;   
+  height: 7px; 
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #F0B90B;
+  border-radius: 5px; 
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #d9d9d9; 
+  border-radius: 8px;
+  height: 7px;  
+}
+
+html::-webkit-scrollbar-thumb:hover {
+background-color: rgb(70, 70, 70)
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@layer base {
+  body {
+    @apply leading-relaxed;
+  }
+  .page {
+    @apply w-full h-screen overflow-hidden;
+  }
+  .h1 {
+    @apply text-[40px] leading-tight md:text-[40px] md:leading-[48px] mb-5 font-bold;
+  }
+  .h2 {
+    @apply text-[24px] leading-tight md:text-[32px] lg:text-[40px] lg:leading-[48px] md:leading-[40px] mb-2 sm:mb-4 font-bold;
+  }
+  p {
+    @apply leading-[1.8];
+  }
+  .btn,
+  .input {
+    @apply h-[40px];
+  }
+  .input {
+    @apply w-full h-[40px] rounded-lg pl-6 capitalize;
+  }
+  .input,
+  .textarea {
+    @apply bg-transparent outline-none focus:ring-0 border border-[#CDCDCD] placeholder:font-light;
+  }
+  .textarea {
+    @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
+  }
+}

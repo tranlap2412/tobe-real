@@ -1,0 +1,142 @@
+.CreateTrading-wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.CreateTrading-container {
+    position: relative;
+    border-radius: 226px;
+    border: 5px solid #f8f8f8;
+    background: #ececec;
+    overflow: hidden;
+    position: relative;
+}
+
+label {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+input[type='file'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.inputIntroductory[type='file'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 188px;
+    cursor: pointer;
+}
+
+.selected-image-preview {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.selected-image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Gr-wrap-inputCT,
+.CT-grInput {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-labelCT {
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Description-Style {
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    background: none;
+}
+
+.Image-Introductory {
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #e3e3e3;
+}
+.labelIntroductory {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Introductory-image-preview {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Introductory-image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.iconCameraBlack {
+    position: absolute;
+    bottom: 0;
+
+    color: #fff;
+}
+.overlayIntroductory {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    justify-content: flex-end;
+}
+.placeholder1 {
+    /* padding: 15px 20px; */
+
+    color: #000;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.AddBranch-CT {
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+

@@ -1,0 +1,223 @@
+.sale {
+    padding-top: 30px;
+}
+
+.menu_li {
+    cursor: pointer;
+    background: linear-gradient(180deg, rgb(240, 185, 11) 0%, rgb(255, 236, 136) 100%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px #fadd55;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-left: 40px;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu_li p {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 275px;
+}
+
+.sell {
+    padding: 30px;
+}
+
+.menu_sell {
+    display: flex;
+    padding: 30px;
+    gap: 60px;
+}
+
+.menu_read {
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 5px;
+    width: 180px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu_read .p {
+    color: #000000;
+    font-family: 'Inter-Medium', Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.Asset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Type {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 252px;
+}
+
+.select-asset {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0000001a;
+    border-radius: 5px;
+    height: 50px;
+    width: 934px;
+}
+
+.contact_city {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.provin-info {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0000001a;
+    border-radius: 5px;
+    height: 50px;
+    width: 934px;
+}
+
+.ward {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ward-info {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0000001a;
+    border-radius: 5px;
+    height: 50px;
+    width: 934px;
+}
+
+.Titlle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Titlle span {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 15px;
+}
+
+.input_title {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0000001a;
+    border-radius: 5px;
+    height: 167px;
+    width: 934px;
+    padding: 10px;
+    padding-bottom: 140px;
+}
+
+.Description {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Description span {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    padding: 15px;
+}
+
+.Description_title {
+    width: 933px;
+    padding: 8px;
+    font-size: 16px;
+    height: 294px;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 250px;
+}
+
+.contact_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_information {
+    color: #000000;
+    font-family: 'Inter-Bold', Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 228px;
+    padding: 15px;
+}
+
+.name {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #0000001a;
+    border-radius: 5px;
+    height: 50px;
+    width: 935px;
+}
+
+.button-post {
+    padding: 35px;
+}
+
+.post {
+    background: linear-gradient(180deg, rgb(248, 232, 90) 0%, rgb(255, 201, 6) 100%);
+    border-radius: 10px;
+    height: 70px;
+    width: 818px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.post span {
+    color: #000000;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    width: 98px;
+}

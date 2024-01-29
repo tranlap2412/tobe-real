@@ -1,0 +1,53 @@
+
+/* card vip special */
+.block-slide-card__type-news-wrapper {
+    /* max-width: 960px; */
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    height: 57px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    padding: 0 10px 5px;
+    transition: all linear 0.3s;
+    z-index: 0;
+    cursor: grab;
+}   
+.block-slide-card__type-news {
+    transform: translateY(-100%);
+    transition: all linear 0.3s;
+}
+
+.block-slide-card__type-news-wrapper.show {
+    height: 545px;
+}
+.block-slide-card__type-news.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.list-type-news .type-news__item:first-child {
+    height: 51px;
+    color: #fff;
+    background-color: #997006;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-type-news .type-news__item:nth-child(odd):not(:first-child) {
+    background-color: #997006;
+    min-height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}   
+.list-type-news .type-news__item:nth-child(2),
+.list-type-news .type-news__item:nth-child(4) {
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

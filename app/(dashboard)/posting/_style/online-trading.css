@@ -1,0 +1,53 @@
+
+/* card vip special */
+.block-slide-card__online-trading-wrapper {
+    /* max-width: 960px; */
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    height: 57px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    padding: 0 10px 5px;
+    transition: all linear 0.3s;
+    z-index: 0;
+    cursor: grab;
+}   
+.block-slide-card__online-trading {
+    transform: translateY(-100%);
+    transition: all linear 0.3s;
+}
+
+.block-slide-card__online-trading-wrapper.show {
+    height: 414px;
+}
+.block-slide-card__online-trading.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.list-online-trading .online-trading__item:first-child {
+    height: 41px;
+    color: #fff;
+    background-color: #997006;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-online-trading .online-trading__item:nth-child(odd):not(:first-child) {
+    background-color: #997006;
+    min-height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}   
+.list-online-trading .online-trading__item:nth-child(2),
+.list-online-trading .online-trading__item:nth-child(4) {
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

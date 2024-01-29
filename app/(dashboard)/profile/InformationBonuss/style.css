@@ -1,0 +1,48 @@
+/* sd chung */
+.InformationBonus-text {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.formBalances {
+    display: flex;
+    align-items: center;
+    width: 335px;
+    height: 107px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #fff 0%, #fff 100%);
+    box-shadow: 0px 4px 10px 0px rgba(240, 185, 11, 0.5);
+}
+/* sd chung */
+
+.wrap-InformationBonuss {
+    width: 335px;
+    height: 455px;
+}
+
+.btn-Balances {
+    display: flex;
+    width: 123px;
+    height: 32px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ffe259 15.1%, #ffa751 85.42%);
+    color: #2e2e2e;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Icon-Link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

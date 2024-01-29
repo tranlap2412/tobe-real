@@ -1,0 +1,31 @@
+.content-propertie {
+    color: #000;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.group-properties {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box-propertie {
+    border-radius: 10px;
+    border: 1px solid #edd440;
+    background: radial-gradient(
+        61.53% 61.53% at 50.2% 100%,
+        #faff00 0%,
+        rgba(250, 255, 0, 0) 100%
+    );
+    box-shadow: 0px 4px 11.2px 0px rgba(0, 0, 0, 0.25);
+    width: 278px;
+    height: 107px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

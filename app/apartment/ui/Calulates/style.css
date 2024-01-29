@@ -1,0 +1,45 @@
+.title-Calculates {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal !important;
+}
+.text-Calculate {
+    padding-top: 20px;
+    color: #000;
+    /* font-size: 20px; */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal !important;
+}
+.wrap-Calculates {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.wrap-Calculates:nth-child(2) {
+    flex-direction: row-reverse;
+}
+.wrap-Calculates:nth-child(2) .content-Calculate h3 {
+    text-align: left;
+}
+.wrap-Calculates:nth-child(2) .content-Calculate p {
+    text-align: left;
+}
+@media only screen and (max-width: 768px) {
+    .wrap-Calculates {
+        flex-direction: column;
+    }
+    .wrap-Calculates:nth-child(2) {
+        flex-direction: column;
+    }
+    .wrap-Calculates:nth-child(2) .content-Calculate h3 {
+        text-align: center;
+    }
+    .wrap-Calculates:nth-child(2) .content-Calculate p {
+        text-align: center;
+    }
+}

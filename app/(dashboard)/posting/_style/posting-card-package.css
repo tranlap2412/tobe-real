@@ -1,0 +1,56 @@
+
+/* card vip special */
+.block-slide-card__package-wrapper {
+    /* max-width: 960px; */
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    height: 57px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    padding: 0 10px 5px;
+    transition: all linear 0.3s;
+    z-index: 3;
+    cursor: grab;
+}   
+.block-slide-card__package {
+    width: 100%;
+    transform: translateY(-100%);
+    transition: all linear 0.3s;
+}
+
+.block-slide-card__package-wrapper.show {
+    height: 440px;
+}
+.block-slide-card__package.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* card item */
+.list-card-package .card-package__item:first-child {
+    height: 51px;
+    color: #fff;
+    background: linear-gradient(180deg, #FF8A00 0%, #8F6F00 100%);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-card-package .card-package__item:nth-child(odd):not(:first-child) {
+    background-color: #997006;
+    min-height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}       
+.list-card-package .card-package__item:nth-child(2),
+.list-card-package .card-package__item:nth-child(4) {
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

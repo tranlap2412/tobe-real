@@ -1,0 +1,84 @@
+
+.list-postcart-vip .postcart-vip__item:first-child {
+    height: 39px;
+    color: #fff;
+    background: linear-gradient(180deg, #FF8A00 0%, #8F6F00 100%);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-postcart-vip .postcart-vip__item:nth-child(odd):not(:first-child) {
+    background-color: #997006;
+    min-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}   
+.list-postcart-vip .postcart-vip__item:nth-child(4) {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* card vip special */
+.posting-card__vip-bg--special{ 
+    background: linear-gradient(180deg, #000000 0%, #000000 100%), 
+    linear-gradient(180deg, #C0C0C0 0%, rgba(192, 192, 192, 0) 100%);
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #C0C0C0 0%, rgba(192, 192, 192, 0) 100%);
+}
+.list-postcart-vip .postcart-vip__item--special {
+    color: #fff;
+}
+.list-postcart-vip .postcart-vip__item--special:first-child {
+    height: 39px;
+    color: #fff;
+    background: #626262;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-postcart-vip .postcart-vip__item--special:nth-child(odd):not(:first-child) {
+    background: #626262;
+    min-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}   
+.list-postcart-vip .postcart-vip__item--special:nth-child(4) {
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-slide-card__vip {
+    transform: translateY(-100%);
+    transition: all linear 0.3s;
+}
+.block-slide-card__vip-wrapper {
+    /* max-width: 960px; */
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    height: 57px;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    padding: 0 10px 5px;
+    transition: all linear 0.3s;
+    z-index: 0;
+}   
+.block-slide-card__vip-wrapper:hover {
+    cursor: grab;
+}
+.block-slide-card__vip-wrapper.show {
+    height: 440px;
+}
+.block-slide-card__vip.show {
+    transform: translateY(0);
+    opacity: 1;
+}

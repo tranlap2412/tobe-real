@@ -1,0 +1,49 @@
+.box-Katherine {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 490px;
+    height: 217px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 11.2px 0px rgba(0, 0, 0, 0.25);
+}
+.box-Katherine a {
+    cursor: pointer;
+    color: #f0b90b;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.box-Katherine a:hover {
+    color: #ffee00;
+}
+.wrap-Katherine {
+    display: flex;
+    align-items: center;
+}
+
+.Owner-sz {
+    font-size: 13px !important;
+}
+.content-Owner-sz {
+    color: #000;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.wrap-Katherine img {
+    padding-bottom: 100px;
+    right: 0;
+    top: 0;
+}
+.title-Katherine {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal !important;
+}

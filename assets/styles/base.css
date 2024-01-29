@@ -1,0 +1,7 @@
+
+
+@media (max-width: 640px) {
+    .maxwidth-title__head {
+        max-width: 200px;
+    }
+}

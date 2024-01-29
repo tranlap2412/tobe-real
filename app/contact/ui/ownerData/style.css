@@ -1,0 +1,66 @@
+.User {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.Address {
+    border-radius: 20px;
+    border-color: #cdcdcd;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 35px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.text_card {
+    color: #000000;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 13px;
+    font-weight: 500;
+    height: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    width: 413px;
+    padding: 8px;
+}
+
+
+.payment_card {
+    color: #00000080;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 96px;
+    padding: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 420px;
+}
+
+.dengan_card {
+    color: transparent;
+    font-family: "Montserrat-Medium", Helvetica;
+    font-size: 10px;
+    font-weight: 500;
+    height: 36px;
+    padding: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 420px;
+}
+
+.dengan_text {
+    color: #00000080;
+}
+
+.span {
+    color: #a68900;
+    text-decoration: underline;
+}

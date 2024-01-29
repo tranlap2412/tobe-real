@@ -1,0 +1,12 @@
+
+.datepicker-input {
+    position: relative;
+}
+.datepicker-input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: red;
+    background-color: transparent;
+}

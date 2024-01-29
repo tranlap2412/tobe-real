@@ -1,0 +1,126 @@
+/* sd chung */
+.wrap-btn {
+    display: flex;
+
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ffe259 15.1%, #ffa751 85.42%);
+    color: #2e2e2e;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.wrap-btn:hover {
+    box-shadow: 0px 4px 11.2px 0px rgba(0, 0, 0, 0.25);
+}
+.title-reuse {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.wrap-houses,
+.wrap-Differences,
+.Wrap-Service-Options,
+.Jenis-wrap {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.seeMore-btn {
+    width: 152px;
+    height: 40px;
+    color: #2e2e2e;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.seeMore-btn:hover {
+    opacity: 0.7;
+}
+/* sdchung end */
+.wrapper {
+    position: relative;
+}
+.home-wrap {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-image: url(../../public/images/property/bg-property.png);
+    /* height: 450px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-wrap::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.Home-Solution {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-Home {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(240, 185, 11, 0.5);
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.wrap-Differences {
+    width: 1129px;
+
+    border-radius: 50px;
+    background: linear-gradient(147deg, #ffe500 0%, rgba(255, 181, 127, 0) 59.9%);
+}
+.Difference-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 112px;
+    border-radius: 50px;
+    background: linear-gradient(147deg, #ffa800 0%, rgba(255, 181, 127, 0) 100%);
+    text-align: center;
+}
+.wrap-Difference-table {
+    padding: 20px 40px;
+}
+.registerNow-btn {
+    display: flex;
+    width: 252px;
+    height: 40px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}

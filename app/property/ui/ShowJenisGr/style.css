@@ -1,0 +1,24 @@
+.wrap-tag {
+    width: 247px;
+    height: 295px;
+    border-radius: 10px;
+    border: 1px solid #edd440;
+    background: radial-gradient(
+        65.93% 65.93% at 50.2% 100%,
+        #faff00 0%,
+        rgba(250, 255, 0, 0) 100%
+    );
+    box-shadow: 0px 4px 11.2px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+
+.text-name-jenis {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

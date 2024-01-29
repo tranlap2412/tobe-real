@@ -1,0 +1,7 @@
+.wrap-Managents {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+
+    flex-direction: column;
+}
